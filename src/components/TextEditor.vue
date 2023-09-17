@@ -285,6 +285,9 @@ select::-ms-expand {
   color: yellow;
   cursor: pointer;
   transition: all 0.3s ease-out;
+  webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 
 .blue-hover:hover {
